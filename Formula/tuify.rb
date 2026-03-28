@@ -7,20 +7,20 @@ class Tuify < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lounge/tuify/releases/download/v0.1.0/tuify_darwin_arm64.tar.gz"
-      sha256 "2c1e526140e4556c8ab0daf716e394f5b17c478aa89c58a9cfd9d9618bb92100"
+      sha256 "8067c21f7f8f88d84bb266353f577e98f1d5fa45b3d1c2f7340d273661d762d1"
     else
       url "https://github.com/lounge/tuify/releases/download/v0.1.0/tuify_darwin_amd64.tar.gz"
-      sha256 "66b2c29a427cbe8359e2434ed57e460ce05998632a89f738bd5cee6dfd200597"
+      sha256 "7346671ee9f4fa1d64fa9ebfd65cb3aa3212979ea0292d6a46f1db9c47fea2f3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/lounge/tuify/releases/download/v0.1.0/tuify_linux_arm64.tar.gz"
-      sha256 "e34c1d2846dbbf342242bb629f6c0173aa104a8133ac0e851bfafb9244e18873"
+      sha256 "43d7b9fd92f28556e6c1d8a8149c9fabee31a86fbaab0620d29b3046dfefcea3"
     else
       url "https://github.com/lounge/tuify/releases/download/v0.1.0/tuify_linux_amd64.tar.gz"
-      sha256 "5028065c3c936721dd22d4d863ef29fc34323e7d15a2604eb0d8ee34abf2b264"
+      sha256 "662941461e26d2dda4af57fade51a419f880744b9b64219a4c2bf98351fd471b"
     end
   end
 
