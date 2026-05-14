@@ -1,26 +1,26 @@
 class Tuify < Formula
   desc "A Spotify TUI with visualizers and lyrics"
   homepage "https://github.com/lounge/tuify"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lounge/tuify/releases/download/v0.4.0/tuify_darwin_arm64.tar.gz"
-      sha256 "fe9c9d5e618c92c258a85cf109d4da79b891375e1bb73320e498062faf9be157"
+      url "https://github.com/lounge/tuify/releases/download/v0.5.0/tuify_darwin_arm64.tar.gz"
+      sha256 "f32560671891a1b37af82336a21f49bd6b27a22d340f0bc7f65df50297c34e89"
     else
-      url "https://github.com/lounge/tuify/releases/download/v0.4.0/tuify_darwin_amd64.tar.gz"
-      sha256 "49e016c91b1eada77a0f23e5073942042b91df5468714ec3735f45fa69ac8692"
+      url "https://github.com/lounge/tuify/releases/download/v0.5.0/tuify_darwin_amd64.tar.gz"
+      sha256 "fd913dbbd0e8cc7d2ae8902ad9021bade0e4b5400a5cb5df06c102d8ce334d54"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lounge/tuify/releases/download/v0.4.0/tuify_linux_arm64.tar.gz"
-      sha256 "634f5005c0885ebb3b2bb725f2971d23ad9457f0ca3183958f9fff914a405ffd"
+      url "https://github.com/lounge/tuify/releases/download/v0.5.0/tuify_linux_arm64.tar.gz"
+      sha256 "13593b538148765e3b14728e8740f4bc2021486e121d22427df1652f7b3a9eef"
     else
-      url "https://github.com/lounge/tuify/releases/download/v0.4.0/tuify_linux_amd64.tar.gz"
-      sha256 "f581133a3d0039f3822ead0b248b0ed44b2a2df327d373d356bd7a8254e5bbfb"
+      url "https://github.com/lounge/tuify/releases/download/v0.5.0/tuify_linux_amd64.tar.gz"
+      sha256 "f1aeca537934bb0658a20c3b90ac195b424d385cb5c91bef910a270e4b02d775"
     end
   end
 
